@@ -4,6 +4,7 @@ fun main(args : Array<String>)
 {
     var obj = getRandomNumber()
 }
+//
 fun getRandomNumber()
 {
     println("Random number:" + Random.nextInt())
