@@ -1,4 +1,5 @@
 class Facade {
+
     fun trim(str: String): String {
         return str.trim { it <= ' ' }
     }
@@ -24,6 +25,7 @@ class Facade {
         return s
     }
 }
+
 fun main(args: Array<String>) {
     var obj = Facade()
     print(obj.specialStringOps("PRACHI"))
